@@ -291,11 +291,27 @@ def get_menu_style() -> str:
 
 # ============ QComboBox 样式 ============
 
+def _get_assets_path() -> str:
+    """获取 assets 目录的路径"""
+    import sys
+    from pathlib import Path
+    if getattr(sys, 'frozen', False):
+        # PyInstaller 打包后
+        base_path = Path(sys._MEIPASS)
+    else:
+        # 开发模式
+        base_path = Path(__file__).parent.parent
+    return str(base_path / "assets").replace("\\", "/")
+
+
 def apply_combobox_style(combo: QComboBox) -> None:
-    """下拉框样式 - 自动适配主题，带清晰的上下箭头"""
+    """下拉框样式 - 自动适配主题，带清晰的向下箭头 SVG"""
+    assets_path = _get_assets_path()
+    
     if _is_dark_theme():
-        combo.setStyleSheet("""
-            QComboBox {
+        arrow_svg = f"{assets_path}/arrow-down-dark.svg"
+        combo.setStyleSheet(f"""
+            QComboBox {{
                 background-color: #3c3c3c;
                 color: #e0e0e0;
                 border: 1px solid #555;
@@ -304,65 +320,54 @@ def apply_combobox_style(combo: QComboBox) -> None:
                 padding-right: 30px;
                 font-size: 13px;
                 min-height: 20px;
-            }
-            QComboBox:hover {
+            }}
+            QComboBox:hover {{
                 border-color: #666;
                 background-color: #454545;
-            }
-            QComboBox:focus {
+            }}
+            QComboBox:focus {{
                 border-color: #0078d4;
-            }
-            QComboBox::drop-down {
+            }}
+            QComboBox::drop-down {{
                 subcontrol-origin: padding;
                 subcontrol-position: center right;
-                width: 28px;
-                border-left: 1px solid #555;
-                border-top-right-radius: 6px;
-                border-bottom-right-radius: 6px;
-                background-color: #454545;
-            }
-            QComboBox::drop-down:hover {
-                background-color: #505050;
-            }
-            QComboBox::down-arrow {
-                width: 12px;
-                height: 12px;
-                image: none;
-            }
-            QComboBox::down-arrow:on {
-                top: 1px;
-            }
-            QComboBox QAbstractItemView {
+                width: 24px;
+                border: none;
+                background: transparent;
+            }}
+            QComboBox::down-arrow {{
+                image: url({arrow_svg});
+                width: 10px;
+                height: 10px;
+            }}
+            QComboBox QAbstractItemView {{
                 background-color: #2d2d30;
                 border: 1px solid #505050;
-                border-radius: 6px;
-                padding: 4px;
+                border-radius: 4px;
+                padding: 2px;
                 selection-background-color: #094771;
                 selection-color: #ffffff;
                 outline: none;
-            }
-            QComboBox QAbstractItemView::item {
+                margin: 0px;
+            }}
+            QComboBox QAbstractItemView::item {{
                 padding: 6px 12px;
                 min-height: 24px;
                 color: #e0e0e0;
-            }
-            QComboBox QAbstractItemView::item:hover {
-                background-color: #3e3e42;
-            }
-            QComboBox QAbstractItemView::item:selected {
-                background-color: #094771;
-            }
-        """)
-        # 使用 Unicode 字符作为下拉箭头（更清晰）
-        combo.setStyleSheet(combo.styleSheet() + """
-            QComboBox::down-arrow {
                 border: none;
                 background: transparent;
-            }
+            }}
+            QComboBox QAbstractItemView::item:hover {{
+                background-color: #3e3e42;
+            }}
+            QComboBox QAbstractItemView::item:selected {{
+                background-color: #094771;
+            }}
         """)
     else:
-        combo.setStyleSheet("""
-            QComboBox {
+        arrow_svg = f"{assets_path}/arrow-down-light.svg"
+        combo.setStyleSheet(f"""
+            QComboBox {{
                 background-color: #ffffff;
                 color: #333333;
                 border: 1px solid #c0c0c0;
@@ -371,54 +376,49 @@ def apply_combobox_style(combo: QComboBox) -> None:
                 padding-right: 30px;
                 font-size: 13px;
                 min-height: 20px;
-            }
-            QComboBox:hover {
+            }}
+            QComboBox:hover {{
                 border-color: #a0a0a0;
                 background-color: #fafafa;
-            }
-            QComboBox:focus {
+            }}
+            QComboBox:focus {{
                 border-color: #0078d4;
-            }
-            QComboBox::drop-down {
+            }}
+            QComboBox::drop-down {{
                 subcontrol-origin: padding;
                 subcontrol-position: center right;
-                width: 28px;
-                border-left: 1px solid #c0c0c0;
-                border-top-right-radius: 6px;
-                border-bottom-right-radius: 6px;
-                background-color: #f5f5f5;
-            }
-            QComboBox::drop-down:hover {
-                background-color: #e8e8e8;
-            }
-            QComboBox::down-arrow {
-                width: 12px;
-                height: 12px;
-                image: none;
-            }
-            QComboBox::down-arrow:on {
-                top: 1px;
-            }
-            QComboBox QAbstractItemView {
+                width: 24px;
+                border: none;
+                background: transparent;
+            }}
+            QComboBox::down-arrow {{
+                image: url({arrow_svg});
+                width: 10px;
+                height: 10px;
+            }}
+            QComboBox QAbstractItemView {{
                 background-color: #ffffff;
-                border: 1px solid #d0d0d0;
-                border-radius: 6px;
-                padding: 4px;
+                border: 1px solid #c0c0c0;
+                border-radius: 4px;
+                padding: 2px;
                 selection-background-color: #e3effd;
                 selection-color: #1a73e8;
                 outline: none;
-            }
-            QComboBox QAbstractItemView::item {
+                margin: 0px;
+            }}
+            QComboBox QAbstractItemView::item {{
                 padding: 6px 12px;
                 min-height: 24px;
                 color: #333333;
-            }
-            QComboBox QAbstractItemView::item:hover {
+                border: none;
+                background: transparent;
+            }}
+            QComboBox QAbstractItemView::item:hover {{
                 background-color: #f0f7ff;
-            }
-            QComboBox QAbstractItemView::item:selected {
+            }}
+            QComboBox QAbstractItemView::item:selected {{
                 background-color: #e3effd;
-            }
+            }}
         """)
 
 
