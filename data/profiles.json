@@ -1,0 +1,538 @@
+{
+  "5413b671-a410-4f22-82b5-b246f2c0e50d": {
+    "contact_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+    "contact_name": "ZhangXuan",
+    "contact_type": "friend",
+    "relationship_type": "朋友",
+    "relative_role": "平级",
+    "age_group": "同龄",
+    "goals": [
+      "维持关系"
+    ],
+    "style_tags": [
+      "美食爱好者"
+    ],
+    "notes": "多年好友、容易被骗",
+    "avatar_path": "/Users/ssheep/Pictures/张旋微信头像.jpg",
+    "intimacy_history": [
+      {
+        "timestamp": "2026-01-29 15:28:15",
+        "intimacy_score": 69
+      },
+      {
+        "timestamp": "2026-01-29 15:33:33",
+        "intimacy_score": 71
+      },
+      {
+        "timestamp": "2026-01-29 16:39:43",
+        "intimacy_score": 73,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:45",
+        "intimacy_score": 72,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:48",
+        "intimacy_score": 71,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:48",
+        "intimacy_score": 70,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:49",
+        "intimacy_score": 69,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:50",
+        "intimacy_score": 68,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:50",
+        "intimacy_score": 67,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:39:51",
+        "intimacy_score": 66,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:54:38",
+        "intimacy_score": 68,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 16:54:44",
+        "intimacy_score": 67,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:54:45",
+        "intimacy_score": 66,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:54:52",
+        "intimacy_score": 65,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 16:54:53",
+        "intimacy_score": 67,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:10:24",
+        "intimacy_score": 69,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:10:44",
+        "intimacy_score": 68,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:12:05",
+        "intimacy_score": 67,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:17:37",
+        "intimacy_score": 69,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:17:38",
+        "intimacy_score": 71,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:28:04",
+        "intimacy_score": 73,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:28:16",
+        "intimacy_score": 72,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:28:30",
+        "intimacy_score": 73,
+        "change": 1,
+        "reason": "撤销不喜欢 (+1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:30:16",
+        "intimacy_score": 75,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:44:12",
+        "intimacy_score": 77,
+        "change": 1,
+        "reason": "用户喜欢回复 (+2)",
+        "round_id": "516ebe3f-deae-45d5-8cc9-823e282d5fad"
+      },
+      {
+        "timestamp": "2026-01-30 00:15:54",
+        "intimacy_score": 78,
+        "change": -1,
+        "reason": "用户喜欢回复 (+2) & 用户不喜欢回复 (-1)",
+        "round_id": "ed468226-a765-44fe-ab5c-9e60c3b4e3f0"
+      }
+    ],
+    "evolution_notes": [
+      "刚刚学会学习"
+    ],
+    "style_profile": {
+      "formality": 0.38,
+      "warmth": 0.71,
+      "directness": 0.55,
+      "humor": 0.65
+    },
+    "style_params": {
+      "formality": 0.5,
+      "initiative": 0.5,
+      "emotion": 0.5,
+      "humor": 0.5,
+      "verbosity": 0.5
+    },
+    "total_messages": 32,
+    "last_interaction": "2026-01-30T02:27:37.818944",
+    "created_at": "2026-01-16T17:05:02.265259",
+    "description": "多年好友、容易被骗",
+    "last_interaction_date": "2026-01-30",
+    "last_intimacy_change": -1,
+    "last_intimacy_change_date": "2026-01-30 00:15:54",
+    "intimacy_change_history": [
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 73
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 72
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 71
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 70
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 69
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 68
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 67
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 66
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 68
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 67
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 66
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 65
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 67
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 69
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 68
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 67
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 69
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 71
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 73
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 72
+      },
+      {
+        "date": "2026-01-29",
+        "change": 1,
+        "reason": "撤销不喜欢 (+1)",
+        "new_score": 73
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 75
+      },
+      {
+        "date": "2026-01-29",
+        "change": 1,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 77,
+        "round_id": "516ebe3f-deae-45d5-8cc9-823e282d5fad"
+      },
+      {
+        "date": "2026-01-30",
+        "change": -1,
+        "reason": "用户喜欢回复 (+2) & 用户不喜欢回复 (-1)",
+        "new_score": 78,
+        "round_id": "ed468226-a765-44fe-ab5c-9e60c3b4e3f0"
+      }
+    ],
+    "acceptance_rate": 0.7999999999999998,
+    "rejection_count": 4
+  },
+  "fb75a357-1e59-4379-8d92-4fecf67339aa": {
+    "contact_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+    "contact_name": "女同事",
+    "contact_type": "colleague",
+    "relationship_type": "同事",
+    "relative_role": "平级",
+    "age_group": "同龄",
+    "goals": [
+      "拉近关系"
+    ],
+    "style_tags": [
+      "营养师"
+    ],
+    "notes": "和张旋有纠缠",
+    "avatar_path": "/Users/ssheep/Pictures/女孩测试图片.jpeg",
+    "intimacy_history": [
+      {
+        "timestamp": "2026-01-29 15:29:10",
+        "intimacy_score": 75
+      },
+      {
+        "timestamp": "2026-01-29 16:59:59",
+        "intimacy_score": 74,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:00:03",
+        "intimacy_score": 73,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-29 17:00:07",
+        "intimacy_score": 75,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:00:09",
+        "intimacy_score": 77,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)"
+      },
+      {
+        "timestamp": "2026-01-29 17:00:12",
+        "intimacy_score": 76,
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)"
+      },
+      {
+        "timestamp": "2026-01-30 04:13:29",
+        "intimacy_score": 78,
+        "change": 0,
+        "reason": "用户喜欢回复 (+2)",
+        "round_id": "01e76705-bbd8-4a77-ad9a-f50627608369"
+      }
+    ],
+    "evolution_notes": [],
+    "style_profile": {
+      "formality": 0.49737499999999996,
+      "warmth": 0.5,
+      "directness": 0.5277499999999999,
+      "humor": 0.5
+    },
+    "style_params": {
+      "formality": 0.5,
+      "initiative": 0.5,
+      "emotion": 0.5,
+      "humor": 0.5,
+      "verbosity": 0.5
+    },
+    "total_messages": 15,
+    "last_interaction": "2026-01-30T04:13:13.912132",
+    "created_at": "2026-01-16T17:05:29.529037",
+    "description": "和张旋有纠缠",
+    "last_interaction_date": "2026-01-30",
+    "last_intimacy_change": 2,
+    "last_intimacy_change_date": "2026-01-30 04:13:26",
+    "intimacy_change_history": [
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 74
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 73
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 75
+      },
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 77
+      },
+      {
+        "date": "2026-01-29",
+        "change": -1,
+        "reason": "用户不喜欢回复 (-1)",
+        "new_score": 76
+      }
+    ],
+    "acceptance_rate": 1.0,
+    "rejection_count": 0
+  },
+  "07f45543-953b-44e0-ac59-d7aed5325734": {
+    "contact_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+    "contact_name": "导师",
+    "contact_type": "colleague",
+    "relationship_type": "领导",
+    "relative_role": "上级",
+    "age_group": "同龄",
+    "goals": [],
+    "style_tags": [
+      "硕士研究生导师"
+    ],
+    "notes": "学术大拿",
+    "avatar_path": "",
+    "intimacy_history": [
+      {
+        "timestamp": "2026-01-29 15:28:16",
+        "intimacy_score": 60
+      },
+      {
+        "timestamp": "2026-01-29 15:29:10",
+        "intimacy_score": 62
+      },
+      {
+        "timestamp": "2026-01-29 18:22:50",
+        "intimacy_score": 64,
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "round_id": "020e5998-5eda-46f0-9c92-44287703f665"
+      },
+      {
+        "timestamp": "2026-01-30 03:22:22",
+        "intimacy_score": 66,
+        "change": 1,
+        "reason": "用户喜欢回复 (+2)",
+        "round_id": "b01429a9-548c-4d69-ab33-9782eff67ee1"
+      }
+    ],
+    "evolution_notes": [],
+    "style_profile": {
+      "formality": 0.5063749999999999,
+      "warmth": 0.5,
+      "directness": 0.5385874999999999,
+      "humor": 0.5
+    },
+    "style_params": {
+      "formality": 0.5,
+      "initiative": 0.5,
+      "emotion": 0.5,
+      "humor": 0.5,
+      "verbosity": 0.5
+    },
+    "total_messages": 9,
+    "last_interaction": "2026-01-30T03:17:54.593889",
+    "created_at": "2026-01-16T20:53:41.930365",
+    "description": "学术大拿",
+    "last_interaction_date": "2026-01-30",
+    "last_intimacy_change": 1,
+    "last_intimacy_change_date": "2026-01-30 03:22:22",
+    "intimacy_change_history": [
+      {
+        "date": "2026-01-29",
+        "change": 2,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 64,
+        "round_id": "020e5998-5eda-46f0-9c92-44287703f665"
+      },
+      {
+        "date": "2026-01-30",
+        "change": 1,
+        "reason": "用户喜欢回复 (+2)",
+        "new_score": 66,
+        "round_id": "b01429a9-548c-4d69-ab33-9782eff67ee1"
+      }
+    ],
+    "acceptance_rate": 1.0,
+    "rejection_count": 0
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "profile_memories": {
+    "5413b671-a410-4f22-82b5-b246f2c0e50d": [
+      {
+        "memory_id": "93064f7d-6b46-4427-b1f3-eed76e86a7b1",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "content": "喜欢玩游戏",
+        "confidence": 0.9,
+        "source": "model",
+        "created_at": "2026-01-29 13:52:46",
+        "last_confirmed": "2026-01-29 13:52:46",
+        "is_active": true
+      },
+      {
+        "memory_id": "1e4ec271-b396-46ad-8ec2-ed0594aeb442",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "content": "喜欢吃火锅",
+        "confidence": 0.9,
+        "source": "model",
+        "created_at": "2026-01-30 00:21:06",
+        "last_confirmed": "2026-01-30 00:21:06",
+        "is_active": true
+      }
+    ],
+    "07f45543-953b-44e0-ac59-d7aed5325734": [
+      {
+        "memory_id": "609a43d4-8dd2-4011-b1b7-33bd5e34c963",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "content": "工作繁忙，肩负很多科研课题",
+        "confidence": 0.96,
+        "source": "manual",
+        "created_at": "2026-01-29 03:53:17",
+        "last_confirmed": "2026-01-29 03:53:17",
+        "is_active": true
+      },
+      {
+        "memory_id": "44d11269-f359-45cc-a097-9e2fdd3f0e3c",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "content": "积极指导学生",
+        "confidence": 0.8,
+        "source": "model",
+        "created_at": "2026-01-30 03:20:09",
+        "last_confirmed": "2026-01-30 03:20:09",
+        "is_active": true
+      }
+    ],
+    "fb75a357-1e59-4379-8d92-4fecf67339aa": [
+      {
+        "memory_id": "22a47324-dc5b-4d68-8e6e-4d1a68db10f0",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "content": "喜欢辣味菜肴",
+        "confidence": 0.9,
+        "source": "model",
+        "created_at": "2026-01-29 04:23:47",
+        "last_confirmed": "2026-01-29 04:23:47",
+        "is_active": true
+      },
+      {
+        "memory_id": "f0cf771c-59b7-41a6-9f71-62fa777e4ade",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "content": "偏好轻松喜剧或科幻电影",
+        "confidence": 0.8,
+        "source": "model",
+        "created_at": "2026-01-29 04:31:16",
+        "last_confirmed": "2026-01-29 04:31:16",
+        "is_active": true
+      },
+      {
+        "memory_id": "617e0f99-0757-40a1-8507-960aef852cc3",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "content": "爱运动",
+        "confidence": 0.26,
+        "source": "manual",
+        "created_at": "2026-01-29 05:06:24",
+        "last_confirmed": "2026-01-29 05:06:24",
+        "is_active": true
+      },
+      {
+        "memory_id": "f71e7981-6bb4-4d42-a51e-a142370559d3",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "content": "偏好烧烤类食物",
+        "confidence": 0.7,
+        "source": "model",
+        "created_at": "2026-01-29 05:09:34",
+        "last_confirmed": "2026-01-29 05:09:34",
+        "is_active": true
+      }
+    ]
+  },
+  "experience_memories": {
+    "5413b671-a410-4f22-82b5-b246f2c0e50d": [
+      {
+        "memory_id": "e43fcf4f-0971-45ba-80f9-fa2edcaf3946",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "event": "一起吃了寿喜烧",
+        "impact": 0.88,
+        "event_time": "2026-01-17",
+        "note": "自助餐",
+        "source": "manual",
+        "is_active": true
+      },
+      {
+        "memory_id": "4c2bbbb9-4232-4fd3-8c49-102502d89ac5",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "event": "提议周末一起玩《双人成行》游戏",
+        "impact": 0.5,
+        "event_time": "2026-01-29",
+        "note": "",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "d4f0b01c-12ed-48e7-82f0-82ce3078fee9",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "event": "提议周末一起玩王者荣耀",
+        "impact": 0.5,
+        "event_time": "2026-01-29",
+        "note": "",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "d6ba72e8-8d23-4dc2-b605-4d725b99c70d",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "event": "计划一起吃火锅",
+        "impact": 0.5,
+        "event_time": "2026-01-30",
+        "note": "",
+        "source": "model",
+        "is_active": true
+      }
+    ],
+    "07f45543-953b-44e0-ac59-d7aed5325734": [
+      {
+        "memory_id": "900dda87-a6d4-4fa9-97de-efe91926a9ab",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "event": "给我打了个电话聊毕设选题",
+        "impact": 0.76,
+        "event_time": "2025-11-26",
+        "note": null,
+        "source": "manual",
+        "is_active": true
+      },
+      {
+        "memory_id": "b4f56687-62ce-4dd8-8812-57943aa659ed",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "event": "安排明天下午的组会",
+        "impact": 0.5,
+        "event_time": "2026-01-29",
+        "note": null,
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "c5c14573-6450-457a-83bb-cd9810b19209",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "event": "讨论了专利申请材料的撰写工作进展",
+        "impact": 0.5,
+        "event_time": "2026-01-29",
+        "note": null,
+        "source": "model",
+        "is_active": true
+      }
+    ],
+    "fb75a357-1e59-4379-8d92-4fecf67339aa": [
+      {
+        "memory_id": "b080ddc7-b1cf-4b77-82d7-3c80eeef53b1",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "event": "讨论了烤肉晚餐的不愉快经历，并计划下次尝试其他美食",
+        "impact": -0.3,
+        "event_time": "2026-01-29",
+        "note": null,
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "b5544cef-8a45-47e6-a4f0-894f951e20eb",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "event": "分享了不开心时的放松方式偏好（如看电影、听音乐）",
+        "impact": 0.2,
+        "event_time": "2026-01-29",
+        "note": null,
+        "source": "model",
+        "is_active": true
+      }
+    ]
+  },
+  "strategy_memories": {
+    "5413b671-a410-4f22-82b5-b246f2c0e50d": [
+      {
+        "memory_id": "ddcfde81-6639-4640-b8aa-24e42466984b",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "pattern": "铁哥们一样的交谈即可",
+        "effectiveness": 1.0,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 03:32:25",
+        "source": "manual",
+        "is_active": true
+      },
+      {
+        "memory_id": "9f8464e0-7737-4032-b7bb-8207afc34cf8",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "pattern": "使用热情和直接的语气能获得积极回应",
+        "effectiveness": 0.8000000000000002,
+        "evidence_count": 3,
+        "last_updated": "2026-01-29 13:54:08",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "08212054-6024-4315-aeff-c631ae920ca1",
+        "person_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+        "pattern": "使用积极幽默的语气能获得更积极的回应",
+        "effectiveness": 0.8,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 14:20:18",
+        "source": "model",
+        "is_active": true
+      }
+    ],
+    "07f45543-953b-44e0-ac59-d7aed5325734": [
+      {
+        "memory_id": "bbbce6fd-e650-438e-92e7-be53b913c230",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "pattern": "表现的主动积极",
+        "effectiveness": 0.84,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 03:56:00",
+        "source": "manual",
+        "is_active": true
+      },
+      {
+        "memory_id": "215b68c5-cd87-4367-b37c-b194a4d74f15",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "pattern": "主动汇报工作进展并寻求指导",
+        "effectiveness": 0.9,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 13:23:28",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "2d072282-2d27-4d3b-ae05-8bfd0126f4c0",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "pattern": "使用礼貌用语（如'好的老师'）维持良好沟通",
+        "effectiveness": 0.85,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 13:23:44",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "780f3990-c6be-43d3-acca-584eaed32fe2",
+        "person_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+        "pattern": "使用积极语气回应问题，提高沟通效率",
+        "effectiveness": 0.9,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 13:26:44",
+        "source": "model",
+        "is_active": true
+      }
+    ],
+    "fb75a357-1e59-4379-8d92-4fecf67339aa": [
+      {
+        "memory_id": "d2a6430d-6eb3-4dae-b71e-10224c5ec75c",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "pattern": "主动分享个人口味偏好并引导对方回应",
+        "effectiveness": 0.8,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 04:23:47",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "666351c2-6688-4078-b18f-5f407b17202a",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "pattern": "通过提问了解对方偏好",
+        "effectiveness": 0.8,
+        "evidence_count": 2,
+        "last_updated": "2026-01-29 04:31:16",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "cfd69aaa-2bcc-4c4c-9dfd-b47ece01d237",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "pattern": "提出问题并寻求共同解决方案",
+        "effectiveness": 0.8,
+        "evidence_count": 1,
+        "last_updated": "2026-01-29 05:14:07",
+        "source": "model",
+        "is_active": true
+      },
+      {
+        "memory_id": "7b50931f-1489-4776-b28c-12071468e047",
+        "person_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+        "pattern": "当用户提出负面意见时，女同事通过同意和建议来回应",
+        "effectiveness": 0.8,
+        "evidence_count": 2,
+        "last_updated": "2026-01-29 05:22:51",
+        "source": "model",
+        "is_active": true
+      }
+    ]
+  }
+}

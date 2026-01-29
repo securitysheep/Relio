@@ -1,0 +1,45 @@
+# ============================================================
+# Relio - Git Ignore Configuration
+# ============================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# itchat cache
+itchat.pkl
+QR.png
+QR.jpg
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# PyInstaller build
+build/
+dist/
+*.app/
+*.spec
+
+# Packaged application (optional: comment out to include)
+# Relio.app/

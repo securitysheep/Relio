@@ -1,0 +1,46 @@
+{
+  "5413b671-a410-4f22-82b5-b246f2c0e50d": {
+    "contact_id": "5413b671-a410-4f22-82b5-b246f2c0e50d",
+    "current_stage": "stable",
+    "interaction_count": 32,
+    "days_since_interaction": 0,
+    "stage_history": {
+      "2026-01-16T17:05:02.265270": "initial",
+      "2026-01-16T22:01:55.089873": "building",
+      "2026-01-24T22:26:10.621738": "stable"
+    },
+    "closeness": 0.78,
+    "trust_level": 0.5,
+    "interaction_frequency": 0.0,
+    "updated_at": "2026-01-30T04:13:29.463385"
+  },
+  "fb75a357-1e59-4379-8d92-4fecf67339aa": {
+    "contact_id": "fb75a357-1e59-4379-8d92-4fecf67339aa",
+    "current_stage": "stable",
+    "interaction_count": 15,
+    "days_since_interaction": 0,
+    "stage_history": {
+      "2026-01-16T17:05:29.529041": "initial",
+      "2026-01-16T22:54:14.198814": "building",
+      "2026-01-29T04:29:55.811572": "stable"
+    },
+    "closeness": 0.78,
+    "trust_level": 0.5,
+    "interaction_frequency": 0.0,
+    "updated_at": "2026-01-30T04:13:29.463409"
+  },
+  "07f45543-953b-44e0-ac59-d7aed5325734": {
+    "contact_id": "07f45543-953b-44e0-ac59-d7aed5325734",
+    "current_stage": "building",
+    "interaction_count": 9,
+    "days_since_interaction": 0,
+    "stage_history": {
+      "2026-01-16T20:53:41.930370": "initial",
+      "2026-01-29T13:20:20.180156": "building"
+    },
+    "closeness": 0.66,
+    "trust_level": 0.5,
+    "interaction_frequency": 0.0,
+    "updated_at": "2026-01-30T04:13:29.463419"
+  }
+}

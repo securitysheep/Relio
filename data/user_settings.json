@@ -1,0 +1,33 @@
+{
+  "api": {
+    "api_key": "sk-eykgxclalrqyzjszgzrzopoqznkarqgaiuzcxhkquvvmbhrm",
+    "base_url": "https://api.siliconflow.cn/v1",
+    "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "frequency_penalty": 0.5,
+    "max_tokens": 512,
+    "max_history": 7
+  },
+  "intimacy_weights": {
+    "decay_7_14": 0.1,
+    "decay_14_30": 0.15,
+    "decay_30_90": 0.3,
+    "decay_90_plus": 0.4,
+    "like_weight": 2,
+    "dislike_weight": 1,
+    "acceptance_delta": 0.1,
+    "rejection_delta": 0.09999999999999999,
+    "base_intimacy": {
+      "家人": 80,
+      "恋人": 45,
+      "伴侣": 70,
+      "亲密朋友": 35,
+      "朋友": 25,
+      "同事": 20,
+      "熟人": 15,
+      "陌生人": 5
+    }
+  },
+  "theme": "system"
+}
