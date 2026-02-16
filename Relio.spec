@@ -20,8 +20,6 @@ datas = [
     (str(PROJECT_ROOT / 'config'), 'config'),
     # 数据目录（初始数据模板）
     (str(PROJECT_ROOT / 'data'), 'data'),
-    # vendor 目录（itchat_uos）
-    (str(PROJECT_ROOT / 'vendor'), 'vendor'),
 ]
 
 # 隐式导入（确保所有模块都被包含）

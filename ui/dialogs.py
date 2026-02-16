@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import List, Optional, Union
+from typing import List, Optional
 
 from PySide6.QtWidgets import (
     QCheckBox,
@@ -28,15 +28,12 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, Signal, QThread
 
 from .store import (
-    Person, MemoryItem, 
-    ProfileMemory, ExperienceMemory, StrategyMemory
+    Person, ProfileMemory, ExperienceMemory, StrategyMemory
 )
 from .button_styles import (
     apply_primary_style,
     apply_secondary_style,
-    apply_warning_style,
     apply_info_style,
-    apply_danger_style,
     apply_combobox_style,
 )
 
@@ -202,72 +199,6 @@ class PersonDialog(QDialog):
             "style_tags": style_tags,
             "notes": notes,
         }
-
-
-class MemoryDialog(QDialog):
-    """新增/编辑记忆对话框。（旧版兼容）"""
-
-    def __init__(self, parent=None, memory: Optional[MemoryItem] = None):
-        super().__init__(parent)
-        self._memory = memory
-
-        self.setWindowTitle("新增记忆" if memory is None else "编辑记忆")
-        self.resize(420, 320)
-
-        layout = QVBoxLayout(self)
-        form = QFormLayout()
-
-        self.type_box = QComboBox()
-        self.type_box.addItem("性格记忆", "personality")
-        self.type_box.addItem("对话偏好", "preference")
-        self.type_box.addItem("关键事件", "event")
-        self.source_box = QComboBox()
-        self.source_box.addItem("手动", "manual")
-        self.source_box.addItem("模型", "model")
-        self.content_edit = QTextEdit()
-        self.content_edit.setFixedHeight(120)
-
-        form.addRow("记忆类型：", self.type_box)
-        form.addRow("来源：", self.source_box)
-        form.addRow("内容：", self.content_edit)
-
-        layout.addLayout(form)
-
-        # 按钮区域
-        btn_layout = QHBoxLayout()
-        btn_layout.addStretch()
-        btn_ok = QPushButton("确定")
-        apply_primary_style(btn_ok)
-        btn_ok.clicked.connect(self.accept)
-        btn_cancel = QPushButton("取消")
-        apply_secondary_style(btn_cancel)
-        btn_cancel.clicked.connect(self.reject)
-        btn_layout.addWidget(btn_ok)
-        btn_layout.addWidget(btn_cancel)
-        layout.addLayout(btn_layout)
-
-        if memory:
-            self._set_combo_by_data(self.type_box, memory.memory_type)
-            self._set_combo_by_data(self.source_box, memory.source)
-            self.content_edit.setPlainText(memory.content)
-
-    def get_data(self) -> Optional[dict]:
-        content = self.content_edit.toPlainText().strip()
-        if not content:
-            QMessageBox.warning(self, "提示", "记忆内容不能为空。")
-            return None
-        return {
-            "memory_type": self.type_box.currentData(),
-            "source": self.source_box.currentData(),
-            "content": content,
-        }
-
-    @staticmethod
-    def _set_combo_by_data(combo: QComboBox, data: str) -> None:
-        for idx in range(combo.count()):
-            if combo.itemData(idx) == data:
-                combo.setCurrentIndex(idx)
-                return
 
 
 # =====================================================================

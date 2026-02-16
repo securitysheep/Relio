@@ -1,6 +1,6 @@
 """亲密度管理器：新的衰减机制与合理的增长逻辑。"""
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Optional, Dict, Tuple, List
 import math
 import logging

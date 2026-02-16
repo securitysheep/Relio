@@ -13,13 +13,9 @@ from PySide6.QtWidgets import (
     QTabWidget,
     QWidget,
     QFormLayout,
-    QGroupBox,
     QTextEdit,
-    QScrollArea,
     QMessageBox,
 )
-from PySide6.QtCore import Qt, QSize
-from PySide6.QtGui import QFont
 from core.config import Settings
 from core.intimacy_manager import IntimacyManager
 from ui.button_styles import (
@@ -27,7 +23,6 @@ from ui.button_styles import (
     apply_secondary_style,
     apply_warning_style,
     apply_info_style,
-    apply_danger_style,
 )
 
 
@@ -51,11 +46,6 @@ def _apply_warning_style(btn: QPushButton) -> None:
 def _apply_info_style(btn: QPushButton) -> None:
     """信息按钮样式（蓝色，用于测试连接等）"""
     apply_info_style(btn)
-
-
-def _apply_danger_style(btn: QPushButton) -> None:
-    """危险按钮样式（红色，用于关闭等）"""
-    apply_danger_style(btn)
 
 
 class APISettingsDialog(QDialog):

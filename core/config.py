@@ -4,9 +4,9 @@ import os
 import sys
 import json
 import logging
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 # 若存在 python-dotenv，则自动加载项目根目录下的 .env 文件，便于本地开发。
 try:  # pragma: no cover - optional helper

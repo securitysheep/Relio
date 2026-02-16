@@ -1,7 +1,7 @@
 """对话分析模块：语义分析、上下文提取与画像匹配。"""
 
 from dataclasses import dataclass
-from typing import List, Dict, Optional
+from typing import List, Optional
 from datetime import datetime
 from .user_profile import UserProfile
 from .relationship_state import RelationshipState

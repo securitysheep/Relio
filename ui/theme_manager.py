@@ -5,8 +5,8 @@ from pathlib import Path
 from typing import Optional
 
 from PySide6.QtCore import QObject, Signal
-from PySide6.QtGui import QPalette, QColor, Qt
-from PySide6.QtWidgets import QApplication, QStyleFactory
+from PySide6.QtGui import QPalette, QColor
+from PySide6.QtWidgets import QApplication
 
 from core.config import (
     load_theme_setting,

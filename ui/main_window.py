@@ -8,7 +8,7 @@ import re
 from datetime import datetime
 from typing import Optional, List
 
-from PySide6.QtCore import Qt, QSize, Signal, QTimer, QPropertyAnimation, QEasingCurve, QThread
+from PySide6.QtCore import Qt, QSize, Signal, QTimer, QThread
 from PySide6.QtGui import QAction, QPixmap, QPalette, QPainter, QPainterPath
 from PySide6.QtWidgets import (
     QApplication,
@@ -43,7 +43,6 @@ matplotlib.use("QtAgg")
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 import numpy as np
 
 from core.system import DialogueDecisionSystem
@@ -51,17 +50,14 @@ from core.user_profile import ContactType
 from core.memory_extractor import MemoryExtractor
 from core.intimacy_manager import IntimacyManager
 from .dialogs import (
-    PersonDialog, MemoryDialog,
-    ProfileMemoryDialog, ExperienceMemoryDialog, StrategyMemoryDialog,
+    PersonDialog, ProfileMemoryDialog, ExperienceMemoryDialog, StrategyMemoryDialog,
     MemoryExtractionDialog, DuplicateMemoryDialog, StrategyMergeDialog,
 )
 from .store import AppStore, Person, MemoryItem
 from .button_styles import (
     apply_primary_style,
     apply_secondary_style,
-    apply_warning_style,
     apply_info_style,
-    apply_danger_style,
     apply_toolbar_style,
     apply_icon_button_style,
     apply_icon_button_active_style,
@@ -643,34 +639,6 @@ class IntimacyTrendChart(FigureCanvas):
         
         self.fig.tight_layout(pad=1.5)
         self.draw()
-
-
-class ReplyItemWidget(QWidget):
-    """回复建议条目组件。"""
-
-    def __init__(self, text: str, parent: Optional[QWidget] = None):
-        super().__init__(parent)
-        self.text = text
-        self.text_label = QLabel(text)
-        self.text_label.setWordWrap(True)
-
-        self.btn_copy = QToolButton()
-        self.btn_copy.setText("复制")
-        self.btn_tune = QToolButton()
-        self.btn_tune.setText("微调")
-
-        btn_layout = QHBoxLayout()
-        btn_layout.addWidget(self.btn_copy)
-        btn_layout.addWidget(self.btn_tune)
-        btn_layout.addStretch()
-
-        layout = QVBoxLayout(self)
-        layout.addWidget(self.text_label)
-        layout.addLayout(btn_layout)
-
-    def update_text(self, text: str) -> None:
-        self.text = text
-        self.text_label.setText(text)
 
 
 class MessageGenerationWorker(QThread):
